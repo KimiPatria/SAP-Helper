@@ -1,0 +1,16 @@
+{
+  "db562a224c88ac5a98c813339da0012bd2e7c6e70ab0848e7030a33788042acf": {
+    "recipients": [
+      "kimipatria220904@gmail.com"
+    ],
+    "summary": "Invoice variance - PO 4500000261 (QUANTITY_VARIANCE, PRICE_VARIANCE)",
+    "sent_at": "2026-07-27T04:37:13.448295+00:00"
+  },
+  "de0694353eccdc142b8d1d55f85a6e0a49f93d43bf73268ec1d385dd5be975aa": {
+    "recipients": [
+      "kimipatria220904@gmail.com"
+    ],
+    "summary": "Invoice variance - PO 4500000256 (QUANTITY_VARIANCE, PRICE_VARIANCE)",
+    "sent_at": "2026-07-29T08:25:36.829041+00:00"
+  }
+}

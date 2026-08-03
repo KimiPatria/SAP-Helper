@@ -1,0 +1,507 @@
+[
+  {
+    "id": "67eadd2bf05049299cb15a29f061d2ea",
+    "queued_at": "2026-07-26T13:34:55.059922+00:00",
+    "status": "open",
+    "reason": "low_confidence",
+    "detail": "Low confidence on field(s) with no recovery route: po_number",
+    "low_confidence_fields": [
+      "po_number",
+      "po_item"
+    ],
+    "blocking_fields": [
+      "po_number"
+    ],
+    "extracted": {
+      "po_number": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "po_item": {
+        "value": "",
+        "confidence": 0.0
+      },
+      "quantity": {
+        "value": "1",
+        "confidence": 1.0
+      },
+      "unit_price": {
+        "value": "20.00",
+        "confidence": 1.0
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 1.0
+      },
+      "vendor_name": {
+        "value": "Anthropic, PBC",
+        "confidence": 1.0
+      },
+      "vendor_invoice_number": {
+        "value": "JO8LFTXO-0006",
+        "confidence": 1.0
+      },
+      "material_description": {
+        "value": "Claude Pro Jul 21\u2014Aug 21, 2026",
+        "confidence": 1.0
+      }
+    }
+  },
+  {
+    "id": "23b82cbfc3ab464a9c5b8d926d42a297",
+    "queued_at": "2026-07-27T04:15:23.266519+00:00",
+    "status": "open",
+    "reason": "po_line_not_found",
+    "detail": "No PO line on this order matches the invoice.",
+    "purchase_order": "4500000261",
+    "match_method": "none",
+    "used_description_fallback": true,
+    "candidates": [
+      {
+        "item": "10",
+        "material": "EGM002",
+        "ordered": 10,
+        "unit": "PC"
+      }
+    ],
+    "extracted": {
+      "po_number": {
+        "value": "4500000261",
+        "confidence": 0.95
+      },
+      "po_item": {
+        "value": "",
+        "confidence": 0.5
+      },
+      "quantity": {
+        "value": "15",
+        "confidence": 0.95
+      },
+      "unit_price": {
+        "value": "125000",
+        "confidence": 0.95
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 0.95
+      },
+      "vendor_name": {
+        "value": "PT Nusantara Prima Supplies",
+        "confidence": 0.95
+      },
+      "vendor_invoice_number": {
+        "value": "INV-TEST-0002",
+        "confidence": 0.95
+      },
+      "material_description": {
+        "value": "Trading Materials (L001)Trading Good for Test 3",
+        "confidence": 0.95
+      }
+    }
+  },
+  {
+    "id": "61105ea1198f4511ada827d1b3447587",
+    "queued_at": "2026-07-27T09:14:59.556679+00:00",
+    "status": "resolved",
+    "reason": "po_not_found",
+    "detail": "Purchase order 450000012 does not exist on this tenant.",
+    "attempted_po_number": "450000012",
+    "used_description_fallback": false,
+    "extracted": {
+      "po_number": {
+        "value": "450000012",
+        "confidence": 0.95
+      },
+      "po_item": {
+        "value": "10",
+        "confidence": 0.95
+      },
+      "quantity": {
+        "value": "3",
+        "confidence": 0.95
+      },
+      "unit_price": {
+        "value": "9000",
+        "confidence": 0.95
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 0.95
+      },
+      "vendor_name": {
+        "value": "PT TST Supplier",
+        "confidence": 0.95
+      },
+      "vendor_invoice_number": {
+        "value": "INV-DEMO-0012",
+        "confidence": 0.95
+      },
+      "material_description": {
+        "value": "MM Sparepart 02",
+        "confidence": 0.95
+      }
+    },
+    "values": {
+      "po_number": "450000012",
+      "po_item": "10",
+      "quantity": "3",
+      "unit_price": "9000",
+      "currency": "IDR",
+      "vendor_name": "PT TST Supplier",
+      "vendor_invoice_number": "INV-DEMO-0012",
+      "material_description": "MM Sparepart 02"
+    },
+    "resolved_at": "2026-07-27T09:15:01.651671+00:00",
+    "resolution": "po_corrected",
+    "corrected_po_number": "4500000012"
+  },
+  {
+    "id": "3bb3596060e3424fb4a28a0649f49874",
+    "queued_at": "2026-07-27T09:18:23.615031+00:00",
+    "status": "open",
+    "reason": "po_not_found",
+    "detail": "Purchase order 450000012 does not exist on this tenant. Check the number with the user.",
+    "attempted_po_number": "450000012",
+    "used_description_fallback": false,
+    "extracted": {
+      "po_number": {
+        "value": "450000012",
+        "confidence": 0.9
+      },
+      "po_item": {
+        "value": "10",
+        "confidence": 0.9
+      },
+      "quantity": {
+        "value": "3",
+        "confidence": 0.9
+      },
+      "unit_price": {
+        "value": "9000",
+        "confidence": 0.9
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 1.0
+      },
+      "vendor_name": {
+        "value": "WCS Manufacturing 1 (M100)",
+        "confidence": 0.95
+      },
+      "vendor_invoice_number": {
+        "value": "INV-TEST-0005",
+        "confidence": 0.9
+      },
+      "material_description": {
+        "value": "Spare parts (YBPM01) MM Sparepart 02",
+        "confidence": 0.9
+      }
+    },
+    "values": {
+      "po_number": "450000012",
+      "po_item": "10",
+      "quantity": "3",
+      "unit_price": "9000",
+      "currency": "IDR",
+      "vendor_name": "WCS Manufacturing 1 (M100)",
+      "vendor_invoice_number": "INV-TEST-0005",
+      "material_description": "Spare parts (YBPM01) MM Sparepart 02"
+    }
+  },
+  {
+    "id": "c8443a68139d46bc9e3e80ab1bdc7480",
+    "queued_at": "2026-07-27T09:19:59.500806+00:00",
+    "status": "resolved",
+    "reason": "po_not_found",
+    "detail": "Purchase order 450000012 does not exist on this tenant. Check the number with the user.",
+    "attempted_po_number": "450000012",
+    "used_description_fallback": false,
+    "extracted": {
+      "po_number": {
+        "value": "450000012",
+        "confidence": 0.95
+      },
+      "po_item": {
+        "value": "10",
+        "confidence": 0.9
+      },
+      "quantity": {
+        "value": "3",
+        "confidence": 0.95
+      },
+      "unit_price": {
+        "value": "9000",
+        "confidence": 0.95
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 1.0
+      },
+      "vendor_name": {
+        "value": "WCS Manufacturing 1 (M100)",
+        "confidence": 0.95
+      },
+      "vendor_invoice_number": {
+        "value": "INV-TEST-0005",
+        "confidence": 0.95
+      },
+      "material_description": {
+        "value": "Spare parts (YBPM01) MM Sparepart 02",
+        "confidence": 0.9
+      }
+    },
+    "values": {
+      "po_number": "450000012",
+      "po_item": "10",
+      "quantity": "3",
+      "unit_price": "9000",
+      "currency": "IDR",
+      "vendor_name": "WCS Manufacturing 1 (M100)",
+      "vendor_invoice_number": "INV-TEST-0005",
+      "material_description": "Spare parts (YBPM01) MM Sparepart 02"
+    },
+    "resolved_at": "2026-07-27T09:20:09.574185+00:00",
+    "resolution": "po_corrected",
+    "corrected_po_number": "4500000012"
+  },
+  {
+    "id": "1f4bed825de54f329f526bbcc17a1321",
+    "queued_at": "2026-07-27T09:24:52.512598+00:00",
+    "status": "resolved",
+    "reason": "po_not_found",
+    "detail": "Purchase order 450000012 does not exist on this tenant. Check the number with the user.",
+    "attempted_po_number": "450000012",
+    "used_description_fallback": false,
+    "extracted": {
+      "po_number": {
+        "value": "450000012",
+        "confidence": 0.9
+      },
+      "po_item": {
+        "value": "10",
+        "confidence": 0.9
+      },
+      "quantity": {
+        "value": "3",
+        "confidence": 0.9
+      },
+      "unit_price": {
+        "value": "9000",
+        "confidence": 0.9
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 1.0
+      },
+      "vendor_name": {
+        "value": "WCS Manufacturing 1 (M100)",
+        "confidence": 0.95
+      },
+      "vendor_invoice_number": {
+        "value": "INV-TEST-0005",
+        "confidence": 0.9
+      },
+      "material_description": {
+        "value": "Spare parts (YBPM01) MM Sparepart 02",
+        "confidence": 0.9
+      }
+    },
+    "values": {
+      "po_number": "450000012",
+      "po_item": "10",
+      "quantity": "3",
+      "unit_price": "9000",
+      "currency": "IDR",
+      "vendor_name": "WCS Manufacturing 1 (M100)",
+      "vendor_invoice_number": "INV-TEST-0005",
+      "material_description": "Spare parts (YBPM01) MM Sparepart 02"
+    },
+    "resolved_at": "2026-07-27T09:25:01.680914+00:00",
+    "resolution": "po_corrected",
+    "corrected_po_number": "4500000012"
+  },
+  {
+    "id": "40dd283888ab4ac39574f59c96cfa751",
+    "queued_at": "2026-07-27T09:30:05.160260+00:00",
+    "status": "resolved",
+    "reason": "po_not_found",
+    "detail": "Purchase order 450000012 does not exist on this tenant. Check the number with the user.",
+    "attempted_po_number": "450000012",
+    "used_description_fallback": false,
+    "extracted": {
+      "po_number": {
+        "value": "450000012",
+        "confidence": 0.9
+      },
+      "po_item": {
+        "value": "10",
+        "confidence": 0.9
+      },
+      "quantity": {
+        "value": "3",
+        "confidence": 0.9
+      },
+      "unit_price": {
+        "value": "9000",
+        "confidence": 0.9
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 1.0
+      },
+      "vendor_name": {
+        "value": "WCS Manufacturing 1 (M100)",
+        "confidence": 0.9
+      },
+      "vendor_invoice_number": {
+        "value": "INV-TEST-0005",
+        "confidence": 0.9
+      },
+      "material_description": {
+        "value": "Spare parts (YBPM01) MM Sparepart 02",
+        "confidence": 0.9
+      }
+    },
+    "values": {
+      "po_number": "450000012",
+      "po_item": "10",
+      "quantity": "3",
+      "unit_price": "9000",
+      "currency": "IDR",
+      "vendor_name": "WCS Manufacturing 1 (M100)",
+      "vendor_invoice_number": "INV-TEST-0005",
+      "material_description": "Spare parts (YBPM01) MM Sparepart 02"
+    },
+    "resolved_at": "2026-07-27T09:30:12.817474+00:00",
+    "resolution": "po_corrected",
+    "corrected_po_number": "4500000012"
+  },
+  {
+    "id": "2c1eba2dc8f6479ba0f4b4bbdd298605",
+    "queued_at": "2026-07-29T08:01:04.905945+00:00",
+    "status": "open",
+    "reason": "posting_blocked",
+    "detail": "This invoice cannot be posted yet - 2 pre-flight check(s) failed:\n- Item 10 of purchase order 4500000256 is not flagged for invoice receipt (SAP's 'Invoice Receipt' indicator is off on the PO line). SAP will not let any invoice select this item. Either Purchasing sets the invoice-receipt indicator on the PO line, or this invoice is for a different line - confirm before posting.\n- Purchase order 4500000256 carries no payment terms (SAP field PaymentTerms is empty), and SAP requires them to post a supplier invoice. This is a master-data gap, not something to guess: have the payment terms added to the vendor master and/or corrected on the PO header, then re-run this invoice. No value is defaulted here on purpose - the terms decide the due date and cash discount.",
+    "purchase_order": "4500000256",
+    "blockers": [
+      {
+        "code": "INVOICE_NOT_EXPECTED",
+        "message": "Item 10 of purchase order 4500000256 is not flagged for invoice receipt (SAP's 'Invoice Receipt' indicator is off on the PO line).",
+        "remedy": "SAP will not let any invoice select this item. Either Purchasing sets the invoice-receipt indicator on the PO line, or this invoice is for a different line - confirm before posting."
+      },
+      {
+        "code": "PAYMENT_TERMS_MISSING",
+        "message": "Purchase order 4500000256 carries no payment terms (SAP field PaymentTerms is empty), and SAP requires them to post a supplier invoice.",
+        "remedy": "This is a master-data gap, not something to guess: have the payment terms added to the vendor master and/or corrected on the PO header, then re-run this invoice. No value is defaulted here on purpose - the terms decide the due date and cash discount."
+      }
+    ],
+    "extracted": {
+      "po_number": {
+        "value": "4500000256",
+        "confidence": 0.95
+      },
+      "po_item": {
+        "value": "10",
+        "confidence": 0.95
+      },
+      "quantity": {
+        "value": "10",
+        "confidence": 0.95
+      },
+      "unit_price": {
+        "value": "0.00",
+        "confidence": 0.95
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 0.95
+      },
+      "vendor_name": {
+        "value": "PT Nusantara Prima Supplies",
+        "confidence": 0.95
+      },
+      "vendor_invoice_number": {
+        "value": "INV-TEST-0003",
+        "confidence": 0.95
+      },
+      "material_description": {
+        "value": "Trading Materials (L001) Trading Good for Test 1",
+        "confidence": 0.95
+      }
+    },
+    "values": {
+      "po_number": "4500000256",
+      "po_item": "10",
+      "quantity": "10",
+      "unit_price": "0.00",
+      "currency": "IDR",
+      "vendor_name": "PT Nusantara Prima Supplies",
+      "vendor_invoice_number": "INV-TEST-0003",
+      "material_description": "Trading Materials (L001) Trading Good for Test 1"
+    }
+  },
+  {
+    "id": "dd71ab69e5ad46fab1109dfd5c666481",
+    "queued_at": "2026-07-29T09:55:26.374089+00:00",
+    "status": "open",
+    "reason": "posting_blocked",
+    "detail": "This invoice cannot be posted yet - 2 pre-flight check(s) failed:\n- Item 10 of purchase order 4500000256 is not flagged for invoice receipt (SAP's 'Invoice Receipt' indicator is off on the PO line). SAP will not let any invoice select this item. Either Purchasing sets the invoice-receipt indicator on the PO line, or this invoice is for a different line - confirm before posting.\n- Purchase order 4500000256 carries no payment terms (SAP field PaymentTerms is empty), and SAP requires them to post a supplier invoice. This is a master-data gap, not something to guess: have the payment terms added to the vendor master and/or corrected on the PO header, then re-run this invoice. No value is defaulted here on purpose - the terms decide the due date and cash discount.",
+    "purchase_order": "4500000256",
+    "blockers": [
+      {
+        "code": "INVOICE_NOT_EXPECTED",
+        "message": "Item 10 of purchase order 4500000256 is not flagged for invoice receipt (SAP's 'Invoice Receipt' indicator is off on the PO line).",
+        "remedy": "SAP will not let any invoice select this item. Either Purchasing sets the invoice-receipt indicator on the PO line, or this invoice is for a different line - confirm before posting."
+      },
+      {
+        "code": "PAYMENT_TERMS_MISSING",
+        "message": "Purchase order 4500000256 carries no payment terms (SAP field PaymentTerms is empty), and SAP requires them to post a supplier invoice.",
+        "remedy": "This is a master-data gap, not something to guess: have the payment terms added to the vendor master and/or corrected on the PO header, then re-run this invoice. No value is defaulted here on purpose - the terms decide the due date and cash discount."
+      }
+    ],
+    "extracted": {
+      "po_number": {
+        "value": "4500000256",
+        "confidence": 0.95
+      },
+      "po_item": {
+        "value": "10",
+        "confidence": 0.95
+      },
+      "quantity": {
+        "value": "10",
+        "confidence": 0.95
+      },
+      "unit_price": {
+        "value": "0.00",
+        "confidence": 0.95
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 0.95
+      },
+      "vendor_name": {
+        "value": "PT Nusantara Prima Supplies",
+        "confidence": 0.95
+      },
+      "vendor_invoice_number": {
+        "value": "INV-TEST-0003",
+        "confidence": 0.95
+      },
+      "material_description": {
+        "value": "Trading Materials (L001) Trading Good for Test 1",
+        "confidence": 0.95
+      }
+    },
+    "values": {
+      "po_number": "4500000256",
+      "po_item": "10",
+      "quantity": "10",
+      "unit_price": "0.00",
+      "currency": "IDR",
+      "vendor_name": "PT Nusantara Prima Supplies",
+      "vendor_invoice_number": "INV-TEST-0003",
+      "material_description": "Trading Materials (L001) Trading Good for Test 1"
+    }
+  }
+]

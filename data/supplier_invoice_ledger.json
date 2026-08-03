@@ -1,0 +1,15 @@
+{
+  "a7b6ecd1f8f582c8cb8efa241d67a02d0ee3d9f04028bd3f87f0be7d0ff2290c": {
+    "dedup_key": "8ddbb03520cf4232bec151c14944a8d67945728b0204435eb0a42de765a9a9b5",
+    "party_key": "527214852e28cadae60deeb32f5d60e1fb313f17e531aa6270fb53fcbe4c947d",
+    "proposal_id": "e63cd2b805f841a190eecb857ddda94b",
+    "payload_hash": "d39ccf3b54b3e6c5095bca0672155d12aba32f9b1140e5e97904314cc5fa5ce2",
+    "vendor": "WCS Manufacturing 1 (M100)",
+    "vendor_invoice_number": "INV-TEST-0005",
+    "invoicing_party": "TST02",
+    "purchase_order": "4500000012",
+    "supplier_invoice": "5105600312",
+    "fiscal_year": "2026",
+    "created_at": "2026-07-27T09:30:34.225360+00:00"
+  }
+}
